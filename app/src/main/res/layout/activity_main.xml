@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="puf.com.camera2gvr.MainActivity">
+
+    <!--
+        Sai Gon - 11/06/207 - Create Google Vr view
+        This view use the library of gogle (com.google.vr.sdb.base)
+        @The output of this view is a side by side view rendered by GvrView
+    -->
+    <com.google.vr.sdk.base.GvrView
+        android:id="@+id/camera_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>
